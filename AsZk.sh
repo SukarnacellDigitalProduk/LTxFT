@@ -36,7 +36,7 @@ clear
 clear && clear && clear
 clear;clear;clear
 echo -e "${BlueBee}╔════════════════════════════════════════════════╗${NC}"
-echo -e "\033[96;1m               LUNATIC TUNNELING               \033[0m"
+echo -e "\033[96;1m               SUKARNA DIGITAL PRODUK               \033[0m"
 echo -e "${BlueBee}╚════════════════════════════════════════════════╝${NC}"
 echo ""
 echo ""
@@ -777,7 +777,7 @@ if [ -f ~/.bashrc ]; then
 fi
 fi
 mesg n || true
-welcome
+menu
 EOF
 cat >/etc/cron.d/xp_all <<-END
 SHELL=/bin/sh
